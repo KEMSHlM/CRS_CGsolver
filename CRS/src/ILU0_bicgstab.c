@@ -1,15 +1,15 @@
 /*
 *
-*	このプログラムは，Bi-CGstab法を実装しております．
-*	解くべき行列は，対称行列であり，テスト実装には，二次元の長方形を想定しています.
+*	このプログラムは，Bi-CGstab法のテストプログラムです．
+*	解くべき行列は，正定値対称行列の二次元の楕円方程式（ex. 二次元平板の伝熱）を想定しています．
 *	前処理行列には，不完全LU分解を用いています．
 *
 */
 #include <stdio.h>
 #include "cg_solver.h"
 
-static int N = 25;
-static int M = 5;
+static int N = 10000;
+static int M = 100;
 static int Kmax = 100000;
 static double EPS = 1.0e-12;
 static double EPSmax = 1.0e50;
