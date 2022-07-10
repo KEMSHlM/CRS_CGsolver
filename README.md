@@ -6,7 +6,7 @@ This is a conjugate gradient method program for solving simultaneous linear equa
 使用可能な関数の説明は，各ヘッダーファイルに記載している．  
 
 >[URL : CRSについて](https://zenn.dev/hishinuma_t/books/sparse-matrix-and-vector-product/viewer/crs)  
->[URL : 不完全コレスキー分解](https://cattech-lab.com/science-tools/lecture-mini-preconditioned-matrix/#%E4%B8%8D%E5%AE%8C%E5%85%A8%E3%82%B3%E3%83%AC%E3%82%B9%E3%82%AD%E3%83%BC%E5%88%86%E8%A7%A3)
+>[URL : 不完全コレスキー分解](https://cattech-lab.com/science-tools/lecture-mini-preconditioned-matrix/#%E4%B8%8D%E5%AE%8C%E5%85%A8%E3%82%B3%E3%83%AC%E3%82%B9%E3%82%AD%E3%83%BC%E5%88%86%E8%A7%A3)  
 >[URL : 不完全LU分解](https://cattech-lab.com/science-tools/lecture-mini-preconditioned-matrix/#%E4%B8%8D%E5%AE%8C%E5%85%A8LU%E5%88%86%E8%A7%A3) 
 
 # 2.　コンパイル
