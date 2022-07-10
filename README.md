@@ -13,7 +13,7 @@ This is a conjugate gradient method program for solving simultaneous linear equa
 コンパイルには，[Makefile](./CRS/src/makefile)を用いる．Makefileには，デバッグ，リリース，並列のオプションを実装した．
 
 # 3. テストプログラム
-テストプログラムに，Bi-CGstab法を実装した．従来のCG法は，正定値対称行列のみ適用可能であった．そこで，広い適用範囲とより強固に収束する性質を持つBi-CGstab法が開発された．  
+テストプログラムに，Bi-CGstab法を実装した．従来のCG法は，正定値対称行列のみ適用可能であった．そこで，広い適用範囲と，より強固に収束する性質を持つBi-CGstab法が開発された．  
 テストプログラムは，前処理行列に不完全コレスキー分解を用いた[IC0_bicgstab.c](./CRS/src/IC0_bicgstab.c)と前処理行列に不完全LU分解を用いた[ILU0_bicgstab.c](./CRS/src/ILU0_bicgstab.c)の二つを用意した.使い分けには，[Makefile](./CRS/src/makefile) の``$(TARGET)``を変更してほしい．
 どちらも初期設定では，二次元の楕円方程式(ex. 二次元平板の熱伝導方程式)を解くことを仮定している．
 
