@@ -21,4 +21,4 @@ This is a conjugate gradient method program for solving simultaneous linear equa
 >[URL : Bi-CGstab法](https://www2.ccs.tsukuba.ac.jp/workshop/HPCseminar/2011/material/2011-04-linear-system.pdf)
 
 # 4. 今後の実装について
-本プログラムは，流体解析に用いるために開発した．今後は，fillinを考慮した前処理行列や，不完全LU分解や不完全コレスキー分解に並列化を実装したく思う．
+本プログラムは，流体解析に用いるために開発した．今後は，fillinを考慮した前処理行列や，不完全LU分解や不完全コレスキー分解の並列化を実装したく思う．
